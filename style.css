@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+ }
+
+ .extra:hover{
+    color: rgb(245, 21, 136);
+ }
+ header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2% 3%;
+    background-image: linear-gradient(to right bottom ,rgb(78, 75, 75,0.5),rgb(36, 35, 35,0.8)),url("./assets\ \(3\)/asset 16.png") ;
+
+ }
+ .container{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+ }
+ nav{
+    display: flex;
+ }
+ 
+ .nav-container-1{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .nav-container-1 img{
+    height: 80%;
+    width: 40%;
+    
+ }
+ .nav-container-1 h1{
+    width: 50%;
+    font-size: 20px;
+ }
+ .nav-container-2{
+    margin-left: 10%;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+ }
+ .nav-container-2 ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3%;
+    justify-content: space-between;
+    list-style: none;
+ }
+ .nav-container-2 ul li{
+    list-style: none;
+
+ }
+ .nav-container-3{
+    margin-left: 10%;
+    width: 25%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+ }
+ .nav-container-3 h1{
+    font-size: 20px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+ }
+ .nav-container-3 button{
+    height: 100%;
+    color: white;
+    width: 60%;
+    background-color:rgb(165, 160, 160,0.5);
+    border: none;
+    border-radius: 20px;
+ }
+ .nav-container-3 button:hover{
+    background-color: rgb(223, 28, 161);
+ }
+
+ /* popup-contsiner-navbar */
+
+ .popup-container{
+    position: absolute;
+    width: 100%;
+    top: 45px;
+    height: 80vh;
+    display: flex;
+ }
+ .popup1-navbar:hover{
+    display: none;
+ }
+ .popup1-navbar{
+    margin-left: 15%;
+    background-color: white;
+    width: 35%;
+    height: 90%;
+    display: flex;
+    display: none;
+    flex-direction: column;
+    gap: 5%;
+     padding: 5% 2%;
+    border-radius: 10px;
+ }
+ .column-popup{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    border-radius: 5px;
+    gap: 2%;
+    padding: 5% 2%;
+
+ }
+ .column-popup:hover{
+    background-color: rgb(96, 93, 93,0.1);
+ }
+ .popup-image{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+
+ }
+ .popup-image img{
+   height: 30px;
+   height: 30px;
+ }
+ .text-popup{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 80%;
+    height: auto;
+ }
+ .text-popup h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .text-popup p{
+    color: gray;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  /* Products-hover -------------------------*/
+
+.pop2-navbar{
+    margin-left: 25%;
+    background-color: white;
+    width: 60%;
+    height: 90%;
+    padding: 2% 2%;
+    border-radius: 10px;
+}
+.pop2-center-container{
+    display: flex;
+    gap: 5%;
+    width: 100%;
+    height: 100%;
+}
+.pop2-first{
+    display: flex;
+    flex-direction: column;
+
+    width: 47%;
+}
+.pop2-first h1{
+    font-size: 20px;
+}
+.pop2-second{
+    width: 47%;
+}
+.pop2-second h1{
+    font-size: 20px;
+}
+.hr{
+    border-top: 1px solid rgb(133, 132, 132,0.3);
+    margin: 20px 0;
+}
+.after-hr1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.Adobe:hover{
+    background-color: rgba(130, 128, 128, 0.1);
+}
+.Adobe{
+    display: flex;
+    gap: 0%;
+    align-items: center;
+}
+.Adobe-image{
+    width: 30%;
+    height: auto;
+}
+.Adobe-image img{
+    height: 30px;
+    width: 30px;
+}
+.Adobe-text{
+    height: auto;
+    margin-left: -10%;
+    width: auto;
+}
+.Adobe-text h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
